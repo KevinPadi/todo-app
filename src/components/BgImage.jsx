@@ -10,15 +10,15 @@ function BgImage () {
   const bgImage = () => {
     if (colorMode === 'dark') {
       if (isMobileSize) {
-        return "url('/bg-mobile-dark.jpg')"
+        return "url('./bg-mobile-dark.jpg')"
       } else {
-        return "url('/bg-desktop-dark.jpg')"
+        return "url('./bg-desktop-dark.jpg')"
       }
     } else if (colorMode === 'light') {
       if (isMobileSize) {
-        return "url('/bg-mobile-light.jpg')"
+        return "url('./bg-mobile-light.jpg')"
       } else {
-        return "url('/bg-desktop-light.jpg')"
+        return "url('./bg-desktop-light.jpg')"
       }
     }
   }
